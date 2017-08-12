@@ -23,9 +23,10 @@
 }
 
 .fa-github {
-  /*padding: 0px;
+  padding: 0px;
+  vertical-align: middle;
   font-size: 57px;
-  color: black;*/
+  color: black;
 }
 
 .fa-google {
