@@ -10,7 +10,7 @@ I am currently a Year 2 undergraduate student at NUS. My major is Computer Engin
 - LinkedIn: [@Yunpeng Niu](https://www.linkedin.com/in/yunpeng-niu)
 
 ## Notice
-We are using GitHub Pages.
+We are using [GitHub Pages](https://pages.github.com/).
 
 ## Others
 This project is under [GNU Public License (GPL) 3.0](LICENSE).
