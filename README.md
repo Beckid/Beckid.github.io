@@ -1,5 +1,5 @@
 ## Introduction
-This project is used to build [Yunpeng's personal website](https://yunpengn.github.io/).
+This project is used to build [Yunpeng's personal website](https://yunpengn.github.io/). We are using [GitHub Pages](https://pages.github.com/).
 
 ## About me
 I am currently a Year 2 undergraduate student at NUS. My major is Computer Engineering. I love programming and solving challenges. I received NUS Science & Technology (S&T) Scholarship and had good academic results.
@@ -10,10 +10,8 @@ I am currently a Year 2 undergraduate student at NUS. My major is Computer Engin
 - Facebook: [@Yunpeng Niu](https://www.facebook.com/NeilNiuYunpeng)
 - LinkedIn: [@Yunpeng Niu](https://www.linkedin.com/in/yunpeng-niu)
 
-## Notice
-We are using [GitHub Pages](https://pages.github.com/).
 
-## Others
+## Licence
 This project is under [GNU Public License (GPL) 3.0](LICENSE) with modification.
 
 That is, **you can redistribute it and/or modify it as long as you do not use it for the same purpose.<br>
