@@ -6,6 +6,7 @@ I am currently a Year 2 undergraduate student at NUS. My major is Computer Engin
 
 - Website: [yunpengn.github.io](https://yunpengn.github.io/)
 - Email: neilniuyunpeng@gmail.com
+- GitHub: [@yunpengn](https://www.github.com/yunpengn/)
 - Facebook: [@Yunpeng Niu](https://www.facebook.com/NeilNiuYunpeng)
 - LinkedIn: [@Yunpeng Niu](https://www.linkedin.com/in/yunpeng-niu)
 
@@ -13,4 +14,4 @@ I am currently a Year 2 undergraduate student at NUS. My major is Computer Engin
 We are using [GitHub Pages](https://pages.github.com/).
 
 ## Others
-This project is under [GNU Public License (GPL) 3.0](LICENSE).
+This project is under [GNU Public License (GPL) 3.0](LICENSE) with modification. That is, __you can redistribute it and/or modify it as long as you do not use it for the same purpose. In other words, you have to seek written permission from [me](https://www.github.com/yunpengn/) if you use anything from here to build your personal portfolio.__
