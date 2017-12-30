@@ -15,4 +15,4 @@ I am currently a Year 2 undergraduate student at NUS. My major is Computer Engin
 This project is under [GNU Public License (GPL) 3.0](LICENSE) with modification.
 
 That is, **you can redistribute it and/or modify it as long as you do not use it for the same purpose.<br>
-In other words, _you have to seek written permission from [me](https://www.github.com/yunpengn/) if you use anything from here to build your personal portfolio._**
+In other words, _you have to seek written permission from [me](https://www.github.com/yunpengn/) if you use anything from here to build your personal portfolio, etc._**
