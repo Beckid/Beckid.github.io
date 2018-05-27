@@ -16,4 +16,8 @@ I am currently an undergraduate student at NUS. My major is Computer Engineering
 
 Copyright &copy; 2017 - 2018 by [Niu Yunpeng](https://www.github.com/yunpengn/)
 
-All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, without the prior written permission of the author.
+This project ([Yunpeng's Personal Website](https://yunpengn.github.io)) is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). Based on a work at [https://github.com/yunpengn/yunpengn.github.io](https://github.com/yunpengn/yunpengn.github.io). You may seek permissions beyond the scope of this license by contacting the author at [neilniuyunpeng@gmail.com](mailto:neilniuyunpeng@gmail.com).<br>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	<img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative Commons License" style="border-width:0">
+</a>
