@@ -1,6 +1,7 @@
 .homepage-text {
-	font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 .homepage-intro {
 	font-size: 22px;
 	font-weight: 500;
@@ -16,10 +17,6 @@
 
 .contact-info {
 	font-size: 16px;
-}
-
-.icon-space {
-	width: 2.5%;
 }
 
 .skill {
