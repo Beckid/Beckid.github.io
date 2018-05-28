@@ -24,16 +24,19 @@
 	<![endif]-->
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" integrity="sha384-Li5uVfY2bSkD3WQyiHX8tJd0aMF91rMrQP5aAewFkHkVSTT2TmD2PehZeMmm7aiL" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.1/litera/bootstrap.min.css" integrity="sha256-f1HyycIF3EOsYpsFCflwDHcTSrj0yKNGzXFTyc0llaU=" crossorigin="anonymous">
 
 	<!-- jQuery file, must be put before Bootstrap javascript file -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript bundle -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome JavaScript -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
 	<!-- Scripts for Google Analytics -->
 	<!-- Put the script provided by Google here. -->
@@ -51,48 +54,34 @@
 	<link rel="stylesheet" type="text/css" href="css/useful.css">
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	<div class="contained-fluid">
-		<!-- Brand name, which is always shown whatever the screen size. -->
-		<a href="index.html" class="navbar-brand"><b>Niu Yunpeng</b></a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+	<a class="navbar-brand" href="index.html"><b>Niu Yunpeng</b></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
-		<!-- This part is shown on mobile screen. -->
-		<div class="navbar-header">
-			<!-- Data target should be accorded with the id of collapse div part -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar-collapse" aria-controls="my-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	        </button>
-		</div>
-
-		<!-- This format is shown on desktop/laptop screen. -->
-		<div class="collapse navbar-collapse" id="my-navbar-collapse">
-			<!-- Decide to pull the links to the right. -->
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="blog/index.html">Blog</a></li>
-				<li><a href="experience.html">Experiences</a></li>
-				<li><a href="project.html">Projects</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
+	<div class="collapse navbar-collapse" id="navbar-content">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item"><a class="nav-link" href="blog/index.html">Blog</a></li>
+			<li><a class="nav-link" href="experience.html">Experiences</a></li>
+			<li><a class="nav-link" href="project.html">Projects</a></li>
+			<li><a class="nav-link" href="contact.html">Contact</a></li>
+		</ul>
 	</div>
 </nav>
-<!-- Because the navigation bar is fixed at the top, we need 3 new lines to avoid the contents below being blocked by it. -->
-<br><br><br>
-
 <br>
+
 <div class="container body-text">
-	<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+	<div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
 		<h2>Experiences</h2>
 		<br>
 
 		<div class="row">
-			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-				<img class="img-rounded pull-left" src="img/Nus_logo.jpg" alt="NUS Logo" width="100px" height="160px" style="text-align: left;">
+			<div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+				<img class="img-fluid rounded-circle mr-auto" src="img/Nus_logo.jpg" alt="NUS Logo" height="200px">
 			</div>
-			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="font-family: Verdana, sans-serif;">
-				<p style="font-size: 1.2em; font-weight: bold;">
+			<div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+				<p style="font-size: 1.2em; font-weight: bold; line-height: 1;">
 					<br>Bachelor of Engineering (<a href="http://ceg.nus.edu.sg/" target="_blank">Computer Engineering</a>)
 				</p>
 				<p style="font-size: 1.05em; font-weight: bold;"><a href="http://www.nus.edu.sg/" target="_blank">National University of Singapore</a></p>
