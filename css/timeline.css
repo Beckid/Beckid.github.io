@@ -1,11 +1,9 @@
 @charset "UTF-8";
 
 .timeline {
-  font-family: 'Source Sans Pro', arial, sans-serif;
   width: 100%;
-  max-width: 900px;
   background: #fff;
-  padding: 100px 50px;
+  padding: 60px 50px 28px 50px;
   position: relative;
 }
 .timeline:before {
@@ -39,8 +37,8 @@
 .entry .title:before {
   content: '';
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 16px;
+  height: 16px;
   border: 4px solid salmon;
   background-color: #fff;
   border-radius: 100%;
@@ -57,7 +55,7 @@
   font-size: 100%;
 }
 .entry .body {
-  margin: 0 0 3em;
+  margin: 0 0 2em;
   float: right;
   width: 66%;
   padding-left: 30px;
