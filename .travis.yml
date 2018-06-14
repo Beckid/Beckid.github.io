@@ -3,4 +3,4 @@ node_js:
     - "node"
 
 script:
-    ./travis/run-checks.sh
+    - ./travis/check-eof-newline.sh
