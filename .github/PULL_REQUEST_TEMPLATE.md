@@ -4,7 +4,7 @@
 
 ## Is this pull request a bug fix or feature proposal & implementation?
 
-<!-- Answer "Bug fix" or "Feature request". -->
+<!-- Answer "Bug fix" or "Feature proposal & implementation". -->
 
 ## Could you please provide screenshots (if applicable)?
 
