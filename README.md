@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/yunpengn/yunpengn.github.io.svg?branch=master)](https://travis-ci.com/yunpengn/yunpengn.github.io)
+
 ## Introduction
 
 This project is used to build [Yunpeng's personal website](https://yunpengn.github.io/). We are using [GitHub Pages](https://pages.github.com/).
