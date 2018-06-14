@@ -4,3 +4,4 @@ node_js:
 
 script:
     - ./travis/check-eof-newline.sh
+    - ./travis/check-trailing-whitespace.sh
