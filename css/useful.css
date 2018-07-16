@@ -1,6 +1,11 @@
-.homepage-text {
-	font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+.navbar-brand b {
+	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.homepage-text p, h5 {
+	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .homepage-intro {
 	font-size: 22px;
 	font-weight: 500;
@@ -10,16 +15,12 @@
     color: #2a7ae2;
 }
 
-.body-text {
+.body-text p, a {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .contact-info {
 	font-size: 16px;
-}
-
-.icon-space {
-	width: 2.5%;
 }
 
 .skill {

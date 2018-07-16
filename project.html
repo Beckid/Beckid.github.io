@@ -24,16 +24,19 @@
 	<![endif]-->
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" integrity="sha384-Li5uVfY2bSkD3WQyiHX8tJd0aMF91rMrQP5aAewFkHkVSTT2TmD2PehZeMmm7aiL" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.1/litera/bootstrap.min.css" integrity="sha256-f1HyycIF3EOsYpsFCflwDHcTSrj0yKNGzXFTyc0llaU=" crossorigin="anonymous">
 
 	<!-- jQuery file, must be put before Bootstrap javascript file -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript bundle -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome JavaScript -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
 	<!-- Scripts for Google Analytics -->
 	<!-- Put the script provided by Google here. -->
@@ -51,135 +54,124 @@
 	<link rel="stylesheet" type="text/css" href="css/useful.css">
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="contained-fluid">
-			<!-- Brand name, which is always shown whatever the screen size. -->
-			<a href="index.html" class="navbar-brand"><b>Niu Yunpeng</b></a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+	<a class="navbar-brand" href="index.html"><b>Niu Yunpeng</b></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
-			<!-- This part is shown on mobile screen. -->
-			<div class="navbar-header">
-				<!-- Data target should be accorded with the id of collapse div part -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar-collapse" aria-controls="my-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
+	<div class="collapse navbar-collapse" id="navbar-content">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item"><a class="nav-link" href="blog/index.html">Blog</a></li>
+			<li><a class="nav-link" href="experience.html">Experiences</a></li>
+			<li><a class="nav-link" href="project.html">Projects</a></li>
+			<li><a class="nav-link" href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+<br>
 
-			<!-- This format is shown on desktop/laptop screen. -->
-			<div class="collapse navbar-collapse" id="my-navbar-collapse">
-				<!-- Decide to pull the links to the right. -->
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="blog/index.html">Blog</a></li>
-					<li><a href="experience.html">Experiences</a></li>
-					<li><a href="project.html">Projects</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- Because the navigation bar is fixed at the top, we need 3 new lines to avoid the contents below being blocked by it. -->
-	<br><br><br>
-
-	<br>
-	<div class="container body-text">
-		<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-			<h2>Projects</h2>
-			<br>
-			<div class="list-group">
-				<a href="http://isteps.comp.nus.edu.sg/event/12th-steps/module/CS3217/project/3" target="_blank" class="list-group-item">
-					<h4 class="list-group-item-heading">
-						Ding!
-						<span class="badge">March - May 2018</span>
-					</h4>
-					<p class="list-group-item-text">
+<div class="container body-text">
+	<div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+		<h2>Projects</h2>
+		<br>
+		<div class="list-group">
+			<a href="http://isteps.comp.nus.edu.sg/event/12th-steps/module/CS3217/project/3" target="_blank" class="list-group-item list-group-item-action">
+				<div class="d-flex w-100 justify-content-between">
+					<h5 class="mb-1">Ding!</h5>
+      				<span class="badge badge-primary badge-pill">March - May 2018</span>
+				</div>
+				<div class="mb-1">
+					<ul>
 						<li>An online service to <i>browse, order, collect and review</i> your favourite food.</li>
 						<li>Built two iOS applications, one for customers, the other for stall owner.</li>
+						<li>Developed a simple ORM driver to map between Firebase Database nodes and Swift runtime Codable objects.</li>
 						<li><span class="skill">Swift, Firebase, Node.js</span></li>
-						<br>
-						<div align="center">
-							<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Haxt9iN44jI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						</div>
-					</p>
-				</a>
+					</ul>
+					<br>
+					<div align="center">
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Haxt9iN44jI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+			</a>
 
-				<a href="https://www.youtube.com/watch?v=40IImvwUhj0" target="_blank" class="list-group-item">
-					<h4 class="list-group-item-heading">
-						Bubble Hero
-						<span class="badge">January - March 2018</span>
-					</h4>
-					<p class="list-group-item-text">
-						<li>Developed an iOS game that is similar to Bubble Blast Saga.</li>
-						<li>Basically, users can shoot bubbles and remove connected bubbles of the same color.</li>
-						<li>Built with Swift 4 and the latest API from iOS 11.</li>
-						<li><span class="skill">Swift, CocoaTouch</span></li>
-						<br>
-						<div align="center">
-							<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/40IImvwUhj0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						</div>
-					</p>
-				</a>
+			<a href="https://www.youtube.com/watch?v=40IImvwUhj0" target="_blank" class="list-group-item list-group-item-action">
+				<h4 class="list-group-item-heading">
+					Bubble Hero
+					<span class="badge">January - March 2018</span>
+				</h4>
+				<p class="list-group-item-text">
+					<li>Developed an iOS game that is similar to Bubble Blast Saga.</li>
+					<li>Basically, users can shoot bubbles and remove connected bubbles of the same color.</li>
+					<li>Built with Swift 4 and the latest API from iOS 11.</li>
+					<li><span class="skill">Swift, CocoaTouch</span></li>
+					<br>
+					<div align="center">
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/40IImvwUhj0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</p>
+			</a>
 
-				<a href="https://github.com/CS2103AUG2017-T09-B3/main" target="_blank" class="list-group-item">
-					<h4 class="list-group-item-heading">
-						BoNUS
-						<span class="badge">September - November 2017</span>
-					</h4>
-					<p class="list-group-item-text">
-						<li>Developed a desktop Java application that helps users manage their contacts and upcoming events</li>
-						<li>Team lead, responsible for team coordination, automatic CI and code review</li>
-						<li>Implemented a feature that allows users to create and store customize fields for their contacts</li>
-						<li>Project website available at https://cs2103aug2017-t09-b3.github.io/main</li>
-						<li><span class="skill">Java, JavaFX</span></li>
-					</p>
-				</a>
+			<a href="https://github.com/CS2103AUG2017-T09-B3/main" target="_blank" class="list-group-item list-group-item-action">
+				<h4 class="list-group-item-heading">
+					BoNUS
+					<span class="badge">September - November 2017</span>
+				</h4>
+				<p class="list-group-item-text">
+					<li>Developed a desktop Java application that helps users manage their contacts and upcoming events</li>
+					<li>Team lead, responsible for team coordination, automatic CI and code review</li>
+					<li>Implemented a feature that allows users to create and store customize fields for their contacts</li>
+					<li>Project website available at https://cs2103aug2017-t09-b3.github.io/main</li>
+					<li><span class="skill">Java, JavaFX</span></li>
+				</p>
+			</a>
 
-				<a href="https://github.com/yunpengn/CS1101S-DG-Website" target="_blank" class="list-group-item">
-					<h4 class="list-group-item-heading">
-						CS1101S DG Website
-						<span class="badge">June - September 2017</span>
-					</h4>
-					<p class="list-group-item-text">
-						<li>A simple online learning management system website for my own teaching</li>
-						<li>Implemented user registration (only by admin user), user login, email notification, document distribution</li>
-						<li>Included an online text editor (powered by Ace editor)</li>
-						<li>Live website available at https://cs1101s.azurewebsites.net/</li>
-						<li><span class="skill">PHP, Bootstrap, Azure platform, Microsoft SQL Server</span></li>
-					</p>
-				</a>
+			<a href="https://github.com/yunpengn/CS1101S-DG-Website" target="_blank" class="list-group-item list-group-item-action">
+				<h4 class="list-group-item-heading">
+					CS1101S DG Website
+					<span class="badge">June - September 2017</span>
+				</h4>
+				<p class="list-group-item-text">
+					<li>A simple online learning management system website for my own teaching</li>
+					<li>Implemented user registration (only by admin user), user login, email notification, document distribution</li>
+					<li>Included an online text editor (powered by Ace editor)</li>
+					<li>Live website available at https://cs1101s.azurewebsites.net/</li>
+					<li><span class="skill">PHP, Bootstrap, Azure platform, Microsoft SQL Server</span></li>
+				</p>
+			</a>
 
-				<a href="http://www.comp.nus.edu.sg/~vwo/projects/2017-lbsa.html" target="_blank" class="list-group-item">
-					<h4 class="list-group-item-heading">
-						Lions Befriender Enterprise Management System
-						<span class="badge">May - August 2017</span>
-					</h4>
-					<p class="list-group-item-text">
-						<li>Developed and deployed an online system to manage the whole organization's daily workflow</li>
-						<li>Responsible for a case management module that controls the status changes of all users in the system</li>
-						<li>Currently serving 7000~ clients and 2000~ volunteers</li>
-						<li><span class="skill">Ruby on Rails, PostgreSQL</span></li>
-					</p>
-				</a>
+			<a href="http://www.comp.nus.edu.sg/~vwo/projects/2017-lbsa.html" target="_blank" class="list-group-item list-group-item-action">
+				<h4 class="list-group-item-heading">
+					Lions Befriender Enterprise Management System
+					<span class="badge">May - August 2017</span>
+				</h4>
+				<p class="list-group-item-text">
+					<li>Developed and deployed an online system to manage the whole organization's daily workflow</li>
+					<li>Responsible for a case management module that controls the status changes of all users in the system</li>
+					<li>Currently serving 7000~ clients and 2000~ volunteers</li>
+					<li><span class="skill">Ruby on Rails, PostgreSQL</span></li>
+				</p>
+			</a>
 
-				<a href="https://youtu.be/RQTNBPb4Q70" target="_blank" class="list-group-item">
-					<h4 class="list-group-item-heading">
-						An immersive 3D education platform
-						<span class="badge">December 2016 - April 2017</span>
-					</h4>
-					<p class="list-group-item-text">
-						<li>Built a 3D game to help students understand algorithms by simulating and visualizing their programs</li>
-						<li>Used at NUS for introductory programming module</li>
-						<li><span class="skill">Unity3D game engine</span></li>
-						<br>
-						<div align="center">
-							<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RQTNBPb4Q70?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						</div>
-					</p>
-				</a>
-			</div>
-			<br><br>
-			<p>For more, please see the "Project" section on my <a href="resume.pdf">resume</a> and my <a href="https://www.linkedin.com/in/yunpeng-niu">LinkedIn profile</a>.</p>
+			<a href="https://youtu.be/RQTNBPb4Q70" target="_blank" class="list-group-item list-group-item-action">
+				<h4 class="list-group-item-heading">
+					An immersive 3D education platform
+					<span class="badge">December 2016 - April 2017</span>
+				</h4>
+				<p class="list-group-item-text">
+					<li>Built a 3D game to help students understand algorithms by simulating and visualizing their programs</li>
+					<li>Used at NUS for introductory programming module</li>
+					<li><span class="skill">Unity3D game engine</span></li>
+					<br>
+					<div align="center">
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RQTNBPb4Q70?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</p>
+			</a>
 		</div>
+		<br><br>
+		<p>For more, please see the "Project" section on my <a href="resume.pdf">resume</a> and my <a href="https://www.linkedin.com/in/yunpeng-niu">LinkedIn profile</a>.</p>
 	</div>
+</div>
 </body>
 </html>
