@@ -4,6 +4,9 @@
 
 This project is used to build [Yunpeng's personal website](https://yunpengn.github.io/). We are using [GitHub Pages](https://pages.github.com/).
 
+- Production Site: [https://yunpengn.github.io/](https://yunpengn.github.io/)
+- Staging Site: [https://yunpengn.netlify.com](https://yunpengn.netlify.com)
+
 ## About me
 
 I am currently an undergraduate student at NUS. My major is Computer Engineering. I love programming and software engineering.
