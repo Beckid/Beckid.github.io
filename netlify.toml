@@ -1,0 +1,10 @@
+# Netlify configuration to deploy site
+
+# Redirects and headers are GLOBAL for all builds – they do not get scoped to
+# contexts no matter where you define them in the file.
+[[redirects]]
+  from = "/blog/*"
+  to = "https://yunpengn.github.io/blog"
+  status = 302
+  [redirects.headers]
+    X-From = "Netlify"
