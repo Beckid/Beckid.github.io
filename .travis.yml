@@ -1,7 +1,0 @@
-language: node_js
-node_js:
-    - "node"
-
-script:
-    - ./travis/check-eof-newline.sh
-    - ./travis/check-trailing-whitespace.sh
